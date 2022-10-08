@@ -12,6 +12,7 @@ export const theme = {
     pageBgColor: 'rgb(242 242 255)',
     white: '#ffffff',
     black: '#000000',
+    red: 'red',
     statListBgColor: 'rgb(218 218 236 / 46%)',
     textColor: '#39546b',
     avatarBg: 'rgb(0 0 0 / 59%)',

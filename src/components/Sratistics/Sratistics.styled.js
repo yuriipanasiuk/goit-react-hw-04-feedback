@@ -18,6 +18,7 @@ export const PercentPositiveResponse = styled.p`
 `;
 
 export const TextWraper = styled.span`
-  font-weight: ${p => p.theme.fontWeight.normal};
+  font-weight: ${p => p.theme.fontWeight.bold};
   color: ${p => p.theme.colors.black};
+  margin-left: ${p => p.theme.space[2]}px;
 `;
