@@ -22,7 +22,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
         Total: <TextWraper>{total}</TextWraper>
       </TotalResponse>
       <PercentPositiveResponse>
-        Positive feedback: <TextWraper>{positivePercentage}</TextWraper>
+        Positive feedback: <TextWraper>{positivePercentage} %</TextWraper>
       </PercentPositiveResponse>
     </>
   );
