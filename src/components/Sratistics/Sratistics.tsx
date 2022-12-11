@@ -6,7 +6,21 @@ import {
   TextWraper,
 } from './Sratistics.styled';
 
-const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
+interface IProps {
+  good: number;
+  neutral: number;
+  bad: number;
+  total: number;
+  positivePercentage: number;
+}
+
+const Statistics = ({
+  good,
+  neutral,
+  bad,
+  total,
+  positivePercentage,
+}: IProps) => {
   return (
     <>
       <Response>

@@ -1,5 +1,5 @@
-import { Box } from 'components/Box/Box';
-import Feedback from 'components/Feedback/Feedback';
+import { Box } from '../Box/Box';
+import Feedback from '../Feedback';
 
 export const App = () => {
   return (

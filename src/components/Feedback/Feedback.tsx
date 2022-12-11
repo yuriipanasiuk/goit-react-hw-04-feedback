@@ -1,15 +1,15 @@
 import { useState } from 'react';
-import Section from 'components/Section';
-import FeedbackOptions from 'components/FeedbackOptions';
-import Statistics from 'components/Sratistics';
-import Notification from 'components/Notification';
+import Section from '../Section';
+import FeedbackOptions from '../FeedbackOptions/FeedbackOptions';
+import Statistics from '../Sratistics';
+import Notification from '../Notification';
 
-const Feedback = () => {
-  const [good, setGood] = useState(0);
-  const [neutral, setNeutral] = useState(0);
-  const [bad, setBad] = useState(0);
+const Feedback: React.FC = () => {
+  const [good, setGood] = useState<number>(0);
+  const [neutral, setNeutral] = useState<number>(0);
+  const [bad, setBad] = useState<number>(0);
 
-  const addFeedback = type => {
+  const addFeedback = (type: string) => {
     switch (type) {
       case 'Good':
         setGood(state => state + 1);
